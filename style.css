@@ -1,0 +1,60 @@
+/* 
+.rouge-script-regular {
+  font-family: "Rouge Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+:root {
+    --background: #3C1518;
+    --header: #FCA820;
+    --fancy-font: "Rouge Script", cursive;
+    --fancy-font-size: 3rem;
+    --div-background: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background);
+}
+
+header {
+    background-color: var(--header);
+    padding: 1rem 0rem 1rem 2rem;
+}
+
+header > ul {
+    list-style: none;
+}
+
+.body_header_p-title {
+    font-family: var(--fancy-font);
+    font-size: var(--fancy-font-size);
+    text-align: center;
+}
+
+div {
+    background-color: var(--div-background);
+    padding: 1rem 0rem 1rem 2rem;
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: .5rem;
+}
+
+.body_main_div-candidatos {
+    padding: .5rem;
+    list-style: none;
+}
+
+.body_main_div-candidatos > p {
+    padding-top: .5rem;
+}
+
+.body_main_div-candidatos > ul {
+    list-style: none;
+    padding-left: .5rem;
+}
