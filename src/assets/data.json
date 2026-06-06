@@ -1,0 +1,44 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Roberta",
+            "score": 23
+        },
+        {
+            "id": 2,
+            "name": "Maria",
+            "score": 26
+        },
+        {
+            "id": 3,
+            "name": "Patricia",
+            "score": 21
+        }
+    ],
+    "shows": [
+        {
+            "id": 1,
+            "title": "Casamento às Cegas",
+            "country": "Polônia",
+            "season": 1,
+            "cast": [
+                {
+                    "id": 1,
+                    "partnerA": [
+                        {
+                            "name": "Daria",
+                            "nickname": "Trans"
+                        }
+                    ],
+                    "partnerB": [
+                        {
+                            "name": "Filip",
+                            "nickname": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

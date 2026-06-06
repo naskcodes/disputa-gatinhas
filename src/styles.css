@@ -24,9 +24,18 @@ body {
 }
 
 .body_footer_ul {
+    justify-content: center;
     display: flex;
     color: white;
     list-style: none;
     gap: .5rem;
     padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
 }
