@@ -1,0 +1,9 @@
+<h2 class="h2-shows">Últimos shows: </h2>
+<p-card>
+    <ng-template #header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyv6C6Zf1Ked53oC-Ael7AktRGKbRCKVL1Yw&s">
+    </ng-template>
+    <ng-template #title>
+        <h4 class="show-titles">{{ data.shows[0].title }}: {{ data.shows[0].country }}</h4>
+    </ng-template>
+</p-card>

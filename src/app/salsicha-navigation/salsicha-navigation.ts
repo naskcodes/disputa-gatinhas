@@ -8,6 +8,7 @@ import { RouterLink } from '@angular/router';
   changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './salsicha-navigation.css',
 })
+
 export class SalsichaNavigation {
 
 }

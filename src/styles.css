@@ -21,6 +21,7 @@ body {
     font-family: var(--fancy-font);
     font-size: var(--fancy-font-size);
     text-align: center;
+    color: black;
 }
 
 .body_footer_ul {
@@ -32,10 +33,30 @@ body {
     padding: 1rem;
 }
 
+.h2-shows {
+    text-align: center;
+    margin: 1rem;
+    font-weight: 200;
+}
+
+.show-titles {
+    text-align: center;
+}
+
 a {
     text-decoration: none;
 }
 
 a:visited {
     color: red;
+}
+
+.p-card {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.p-card-header {
+    display: flex;
+    justify-content: center;
 }
