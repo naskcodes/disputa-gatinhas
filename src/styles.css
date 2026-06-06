@@ -1,0 +1,32 @@
+:root {
+    --background: #3C1518;
+    --header: #FCA820;
+    --fancy-font: "Rouge Script", cursive;
+    --fancy-font-size: 3rem;
+    --div-background: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.body_header_p-title {
+    padding: 1rem;
+    background-color: var(--header);
+    font-family: var(--fancy-font);
+    font-size: var(--fancy-font-size);
+    text-align: center;
+}
+
+.body_footer_ul {
+    display: flex;
+    color: white;
+    list-style: none;
+    gap: .5rem;
+    padding: 1rem;
+}
