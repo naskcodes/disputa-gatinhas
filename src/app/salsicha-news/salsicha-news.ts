@@ -10,5 +10,5 @@ import showsList from '../../assets/shows.json'
 })
 
 export class SalsichaNews {
-
+  
 }
