@@ -1,0 +1,19 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Roberta",
+            "score": 23
+        },
+        {
+            "id": 2,
+            "name": "Maria",
+            "score": 26
+        },
+        {
+            "id": 3,
+            "name": "Patricia",
+            "score": 21
+        }
+    ]   
+}

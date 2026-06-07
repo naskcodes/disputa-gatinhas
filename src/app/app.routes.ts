@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { SalsichaShows } from './salsicha-shows/salsicha-shows';
+import { SalsichaNews } from './salsicha-news/salsicha-news';
 
 export const routes: Routes = [
-    { path: '**', component: SalsichaShows }
+    { path: '**', component: SalsichaNews }
 ];
