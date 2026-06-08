@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CardModule } from 'primeng/card';
-import showsList from '../../assets/shows.json'
+import { Salsicha } from '../salsicha';
 
 @Component({
   selector: 'app-salsicha-news',
@@ -10,5 +10,9 @@ import showsList from '../../assets/shows.json'
 })
 
 export class SalsichaNews {
-  
+  constructor(private salsicha: Salsicha){ 
+    // this.salsicha.getShows().subscribe((res: any) => {
+    //   alert(JSON.stringify(res));
+    // });
+  }  
 }
