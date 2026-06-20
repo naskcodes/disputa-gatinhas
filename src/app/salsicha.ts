@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 export class Salsicha {
   constructor(private http: HttpClient) { }
 
-  getShows() {
-    // return this.http.get('assets/shows.json');
-  }
+  // getShows() {
+  //    return this.http.get('assets/shows.json');
+  // }
 }
