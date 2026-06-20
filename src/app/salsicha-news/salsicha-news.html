@@ -1,9 +1,11 @@
 <h2 class="h2-shows">Recentes: </h2>
-<p-card>
-    <ng-template #header>
-        <!-- <img [src]="{{ shows().image }}"> -->
-    </ng-template>
-    <ng-template #title>
-        {{ shows()[0] }}
-    </ng-template>
-</p-card>
+@for (show of shows(); track show.season) {
+    <p-card>
+        <ng-template #header>
+            <img class="img-shows-cover" src="{{ show.cover }}">
+        </ng-template>
+        <ng-template #title>
+            <p class="p-shows-title">{{ show.title }}: {{ show.country }}</p>
+        </ng-template>
+    </p-card>
+}

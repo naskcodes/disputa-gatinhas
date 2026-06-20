@@ -39,7 +39,11 @@ body {
     font-weight: 200;
 }
 
-.show-titles {
+.img-shows-cover {
+    max-width: 65%;
+}
+
+.p-shows-title {
     text-align: center;
 }
 

@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, Signal, signal } from '@angular/core';
 import { CardModule } from 'primeng/card';
 import { SHOWS } from '../../assets/shows';
 
@@ -10,5 +10,5 @@ import { SHOWS } from '../../assets/shows';
 })
 
 export class SalsichaNews {
-  shows: any = signal(SHOWS);
+  shows: Signal<any> = signal(SHOWS);
 }
